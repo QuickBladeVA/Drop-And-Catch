@@ -102,11 +102,11 @@
         // config.devicePixelRatio = 1;
 
 
-      } else {
-        // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
-        canvas.style.width = "1350px";
-        canvas.style.height = "1080px";
-      }
+} else {
+  // Fill the browser tab
+  canvas.style.width = "100vw";
+  canvas.style.height = "100vh";
+}
 
       document.querySelector("#unity-loading-bar").style.display = "block";
 
